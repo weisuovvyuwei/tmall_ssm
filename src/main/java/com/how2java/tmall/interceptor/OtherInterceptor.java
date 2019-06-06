@@ -45,6 +45,7 @@ public class OtherInterceptor extends HandlerInterceptorAdapter {
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute("user");
+
         int number = 0;
         if(null != user){
             List<OrderItem> ois = orderItemService.listByUser(user.getId());
