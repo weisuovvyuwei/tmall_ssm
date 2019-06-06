@@ -46,8 +46,6 @@ public class OtherInterceptor extends HandlerInterceptorAdapter {
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute("user");
         System.out.println(132123);
-        System.out.println(132123);
-        System.out.println(132123);
         int number = 0;
         if(null != user){
             List<OrderItem> ois = orderItemService.listByUser(user.getId());
