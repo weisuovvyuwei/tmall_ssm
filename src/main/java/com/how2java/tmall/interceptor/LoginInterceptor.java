@@ -34,7 +34,7 @@ public class LoginInterceptor extends HandlerInterceptorAdapter{
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         HttpSession session = request.getSession();
         String contextPath = session.getServletContext().getContextPath();
-        System.out.println("contextPath==="+contextPath);
+
         String[] noNeedAuthPage = new String[]{
                 "home",
                 "checkLogin",
