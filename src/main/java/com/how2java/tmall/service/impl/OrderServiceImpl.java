@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -72,7 +73,7 @@ public class OrderServiceImpl implements OrderService {
     public float add(Order order, List<OrderItem> ois) {
         float total = 0;
         add(order);
-
+        System.out.println(new Date());
         if(false){
             throw new RuntimeException();
         }
