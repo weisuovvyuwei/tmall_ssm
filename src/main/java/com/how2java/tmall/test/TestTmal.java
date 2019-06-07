@@ -14,7 +14,7 @@ import java.util.List;
 
 public class TestTmal {
     public static void main(String[] args) throws Exception{
-        String today = "2019-05-19";
+        String today = "2019-06-07";
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date now = sdf.parse(today);
         Date d = new Date();

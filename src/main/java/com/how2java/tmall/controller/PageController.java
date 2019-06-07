@@ -22,4 +22,8 @@ public class PageController {
     public String alipay(){
         return "fore/alipay";
     }
+    @RequestMapping("loginAdmin")
+    public String adminLogin(){
+        return "admin/adminLogin";
+    }
 }

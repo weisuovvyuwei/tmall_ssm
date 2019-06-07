@@ -41,5 +41,9 @@
             <mvc:mapping path="/fore*"/>
             <bean class="com.how2java.tmall.interceptor.OtherInterceptor"/>
         </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/admin*"/>
+            <bean class="com.how2java.tmall.interceptor.AdminInterceptor"/>
+        </mvc:interceptor>
     </mvc:interceptors>
 </beans>

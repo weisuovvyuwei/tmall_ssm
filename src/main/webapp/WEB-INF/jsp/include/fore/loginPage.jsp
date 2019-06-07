@@ -41,7 +41,6 @@
 		<a href="${contextPath}"><img src="img/site/simpleLogo.png"></a>
 	</div>
 
-
 	<img id="loginBackgroundImg" class="loginBackgroundImg" src="img/site/loginBackground.png">
 
 	<form class="loginForm" action="forelogin" method="post">
@@ -69,7 +68,6 @@
 			</div>
 			<span class="text-danger">不要输入真实的天猫账号密码</span><br><br>
 
-
 			<div>
 				<a class="notImplementLink" href="#nowhere">忘记登录密码</a>
 				<a href="registerPage" class="pull-right">免费注册</a>
@@ -79,6 +77,4 @@
 			</div>
 		</div>
 	</form>
-
-
 </div>	
