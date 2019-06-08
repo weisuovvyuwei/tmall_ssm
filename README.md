@@ -1,6 +1,5 @@
 # tmall_ssm
 模仿天猫商城的项目!
-
 ### 主要技术
   
  -  后端技术：spring、SpringMVC、Mybatis
@@ -19,8 +18,7 @@
   
  -  版本控制：git  
  
- ### 开发工具和环境
-
+### 开发工具和环境
 - IntelliJ IDEA 2017.2
 
 - Maven 3.5.0
