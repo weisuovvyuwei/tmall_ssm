@@ -56,6 +56,9 @@ public class AdminUserServiceImpl implements AdminUserService {
 
     @Override
     public AdminUser get(String name, String password) {
+        if(null == name || null == password){
+            return null;
+        }
         AdminUserExample example = new AdminUserExample();
         example.createCriteria().andNameEqualTo(name).andPasswordEqualTo(password);
         List<AdminUser> aus  = adminUserMapper.selectByExample(example);

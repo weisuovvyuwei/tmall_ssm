@@ -8,7 +8,7 @@
 <%@include file="../include/admin/adminNavigator.jsp"%>
 <head>
     <meta charset="utf-8" />
-    <title>bootstrap案例</title>
+    <title>管理员登录</title>
     <!--用百度的静态资源库的cdn安装bootstrap环境-->
     <!-- Bootstrap 核心 CSS 文件 -->
     <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
 -->
 <div class="container">
     <div class="form row">
-        <form class="form-horizontal col-sm-offset-3 col-md-offset-3" action="adminLogin" method="post">
+        <form class="form-horizontal col-sm-offset-3 col-md-offset-3" action="loginAdmin" method="post">
             <h3 class="form-title">管理员登录</h3>
             <div class="col-sm-9 col-md-9">
                 <div class="form-group">

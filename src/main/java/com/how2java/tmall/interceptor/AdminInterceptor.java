@@ -35,7 +35,7 @@ public class AdminInterceptor extends HandlerInterceptorAdapter {
         if (uri.startsWith("/admin")) {
             AdminUser adminUser = (AdminUser) session.getAttribute("adminUser");
             if (null == adminUser) {
-                response.sendRedirect("loginAdmin");
+                response.sendRedirect("loginAdminPage");
                 return false;
             }
         }

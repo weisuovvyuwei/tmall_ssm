@@ -18,8 +18,8 @@ public class AdminUserController {
     @Autowired
     AdminUserService adminUserService;
 
-    @RequestMapping("adminLogin")
-    public String adminLogin(HttpSession session, String name, String password, Model model){
+    @RequestMapping("loginAdmin")
+    public String loginAdmin(HttpSession session, String name, String password, Model model){
         name = HtmlUtils.htmlEscape(name);
         AdminUser admin = adminUserService.get(name,password);
         if (null == admin){
