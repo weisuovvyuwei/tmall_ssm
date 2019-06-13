@@ -1,7 +1,7 @@
 # tmall_ssm
 模仿天猫商城的项目!
  - [项目演示](http://47.102.133.192:8080/tmall_ssm/forehome)
- - [后台登录](http://47.102.133.192:8080/tmall_ssm/forehome)(账号:admin 密码:admin)
+ - [后台登录](http://47.102.133.192:8080/tmall_ssm/admin)(账号:admin 密码:admin)
 ### 主要技术
   
  -  后端技术：spring、SpringMVC、Mybatis
